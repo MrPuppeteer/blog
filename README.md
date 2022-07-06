@@ -81,8 +81,6 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 `data/headerNavLinks.js` - navigation links.
 
-`data/logo.svg` - replace with your own logo.
-
 `data/blog` - replace with your own blog posts.
 
 `public/static` - store assets such as images and favicons.
