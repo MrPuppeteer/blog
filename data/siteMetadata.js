@@ -3,7 +3,7 @@ const siteMetadata = {
   author: 'MrPuppeteer',
   headerTitle: 'MrPuppeteer',
   description:
-    'Software Engineer — Random guy with great interest in web, data science, maths, and psych',
+    'Software Engineer — Random guy with great interest in web development, UX design, data science, maths, and psych',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://mrpppteer-blog.vercel.app',
