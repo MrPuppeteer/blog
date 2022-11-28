@@ -1,7 +1,7 @@
 const siteMetadata = {
-  title: 'MrPuppeteer',
+  title: 'Theatra',
   author: 'MrPuppeteer',
-  headerTitle: 'MrPuppeteer',
+  headerTitle: 'Theatra',
   description:
     'Software Engineer — Random guy with great interest in web development, UX design, data science, maths, and psych',
   language: 'en-us',
