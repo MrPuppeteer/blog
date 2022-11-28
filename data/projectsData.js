@@ -1,5 +1,12 @@
 const projectsData = [
   {
+    title: 'Coundown App',
+    description:
+      'An app that shows how much time left until specified date & time. This app is made with Preact and Tailwind CSS.',
+    imgSrc: '/static/images/countdown.png',
+    href: 'https://countdown-time.vercel.app/',
+  },
+  {
     title: 'Frontend Mentor Challenges',
     description: 'This repo contains all challenges I have done on Frontend Mentor.',
     imgSrc: '/static/images/frontend-mentor.png',
