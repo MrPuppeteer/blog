@@ -4,7 +4,7 @@ const projectsData = [
     description:
       'An app that shows how much time left until specified date & time. This app is made with Preact and Tailwind CSS.',
     imgSrc: '/static/images/countdown.png',
-    href: 'https://countdown-time.vercel.app/',
+    href: 'https://countdown.theatra.my.id/',
   },
   {
     title: 'Frontend Mentor Challenges',
@@ -23,7 +23,7 @@ const projectsData = [
     description:
       'Portfolio website v1 created using React and Tailwind CSS. This web is based on React JS Portfolio by Code Commerce (@fireclint).',
     imgSrc: '/static/images/portfolio.png',
-    href: 'http://mrpppteer.vercel.app/',
+    href: 'https://portfolio.theatra.my.id/',
   },
   {
     title: 'CS50 Homepage',
