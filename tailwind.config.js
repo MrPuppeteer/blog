@@ -26,6 +26,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ['InterVariable', ...defaultTheme.fontFamily.sans],
+        babylonica: ['Babylonica', 'cursive'],
       },
       colors: {
         primary: colors.sky,

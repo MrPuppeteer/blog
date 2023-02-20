@@ -15,7 +15,7 @@ const LayoutWrapper = ({ children }) => {
             <Link href="/" aria-label={siteMetadata.headerTitle}>
               <div className="flex items-center justify-between">
                 {typeof siteMetadata.headerTitle === 'string' ? (
-                  <div className="h-6 text-2xl font-semibold transition duration-300 ease-linear hover:text-primary-600">
+                  <div className="h-9 font-babylonica text-4xl font-semibold transition duration-300 ease-linear hover:text-primary-600">
                     {siteMetadata.headerTitle}
                   </div>
                 ) : (
