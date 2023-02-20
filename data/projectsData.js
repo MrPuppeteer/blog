@@ -1,5 +1,12 @@
 const projectsData = [
   {
+    title: 'Tic Tac Toe',
+    description:
+      'A simple tic-tac-toe game with instruction and history feature. Made with React and Tailwind CSS.',
+    imgSrc: '/static/images/tictactoe.png',
+    href: 'https://tictactoe.theatra.my.id/',
+  },
+  {
     title: 'Coundown App',
     description:
       'An app that shows how much time left until specified date & time. This app is made with Preact and Tailwind CSS.',
