@@ -20,10 +20,9 @@ I build this blog with Nextjs and Tailwind CSS. I initially wanted to create a b
 
 The motivation behind the blog creation is that I intend to document what I learned, showcase my projects, and maybe share some of my thoughts. Here is a list of topics I may write about in the future.
 
-- Web Development
-- UX Design
-- Data Science
+- Software Engineering (incl. Web Development and UX Design)
+- AI and Machine Learning
 - Maths
-- Psychology
+- Linux
 
-Let me know if you have something to discuss by contacting me below.
+Let me know if you have something to discuss by contacting me above.

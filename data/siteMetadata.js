@@ -2,8 +2,7 @@ const siteMetadata = {
   title: 'Theatra',
   author: 'MrPuppeteer',
   headerTitle: 'Theatra',
-  description:
-    'Software Engineer — Random guy with great interest in web development, UX design, data science, maths, and psych',
+  description: 'Software/AI Engineer — One step at a time',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://mrpppteer-blog.vercel.app',
