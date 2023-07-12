@@ -5,7 +5,7 @@ const siteMetadata = {
   description: 'Software/AI Engineer — One step at a time',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://theatra.my.id',
+  siteUrl: 'https://www.theatra.my.id',
   siteRepo: 'https://github.com/MrPuppeteer/blog',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
