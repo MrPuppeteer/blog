@@ -3,7 +3,7 @@ title: How to convert a repeating decimal into a ratio of two integers
 date: '2023-07-06'
 tags: ['math', 'precalculus']
 draft: false
-summary:
+summary: We know that 2/3 is 0.6666..., but given the number 0.6666... how could we know its ratio of two integers value is 2/3?
 images: []
 layout: PostLayout
 canonicalUrl: how-to-convert-a-repeating-decimal-into-a-ratio-of-two-integers
