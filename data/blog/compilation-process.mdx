@@ -1,0 +1,69 @@
+---
+title: GCC Compilation Process
+date: '2024-02-17'
+tags: ['c/c++', 'gcc', 'compilation']
+draft: false
+summary: GCC compiles a C/C++ program into executable through a sequence of four steps, as depicted in ...
+images: []
+layout: PostLayout
+canonicalUrl: compilation-process
+authors: ['default']
+---
+
+<div className="text-center">
+  <Image
+    alt="GCC Compilation Process"
+    src="/static/images/compilation-process.png"
+    className="rounded"
+    width={615}
+    height={288}
+  />
+</div>
+
+GCC compiles a C/C++ program into executable through a sequence of four steps, as depicted in the diagram above. To illustrate, let's consider the command `g++ -o hello hello.cpp`[^1] and break down its execution:
+
+[^1]: It's worth noting that unlike Windows, which typically relies on file extensions like `.exe` to denote directly executable files, Linux/Unix systems often do not use file extensions for this purpose. Instead, they determine the executable type by examining the file itself.
+
+1. Pre-processing: This initial step involves the GNU C Preprocessor (`cpp`), which handles tasks such as including headers (`#include`) and expanding macros (`#define`).
+
+   ```sh
+   cpp hello.cpp > hello.i
+   ```
+
+   The resultant intermediate file `hello.i` contains the expanded source code.
+
+2. Compilation: The compiler takes the the pre-processed source code and translates it into assembly code specific to the target processor.
+
+   ```sh
+   g++ -S hello.i
+   ```
+
+   Using the `-S` flag instrructs the compiler to generate assembly code, instead of object code. The resultant assembly file is `hello.s`.
+
+3. Assembly: The assembler (`as`) converts the assembly code into machine code, stored in an object file named `hello.o`.
+
+   ```sh
+   as -o hello.o hello.s
+   ```
+
+4. Linking: Finally, the linker (`ld`) combines the object code with any required library code to produce the executable file `hello`.
+
+   ```sh
+   ld -o hello hello.o ...libraries...
+   ```
+
+   If you're still unsure how to link object files using `ld`, you can run the compilation command with verbose mode enabled to get a detailed view of the process as shown below. Additionaly, you can refer to [this stackoverflow post](https://stackoverflow.com/questions/14163208/how-to-link-c-object-files-with-ld) for further insights.
+
+## Verbose Mode (`-v`)
+
+To observe a detailed of the compilation process, you can enable the verbose mode by adding the `-v` option along with the compilation command. For instance:
+
+```sh
+g++ -v -o hello hello.cpp
+```
+
+## Resources
+
+1. https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html
+2. https://askubuntu.com/questions/156392/what-is-the-equivalent-of-an-exe-file
+3. https://stackoverflow.com/questions/14163208/how-to-link-c-object-files-with-ld
