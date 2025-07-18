@@ -26,7 +26,7 @@ So here is the two packages:
 
 By installing both of them on flatpak and removing them from portage, I managed to uninstall a bunch of dependencies (packages) including qtwebengine and webkit-gtk on portage.
 
-On a side note, I noticed that protontricks, a wrapper script that I use to play Windows games on steam; on portage, it depends on wine. Compiling wine also takes a fair amount of time, although not as long as compling a web engine. For wine, I usually use proton provided by steam or wine-ge provided by lutris so compiling system wine just for installing protontricks is a waste. Fortunately, protontricks is also available in flatpak. I installed it and managed to uninstall wine on my system.
+On a side note, I noticed that protontricks, a wrapper script that I use to play Windows games on steam depends on wine. Compiling wine also takes a fair amount of time, although not as long as compiling a web engine. For wine, I usually use proton provided by steam or wine-ge provided by lutris so compiling system wine just for installing protontricks is a waste of time & resource. Fortunately, protontricks is also available in flatpak. I installed it and managed to uninstall wine on my system.
 
 Thanks to all of this, I am now a happy flatpak user.
 
